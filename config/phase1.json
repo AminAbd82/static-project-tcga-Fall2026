@@ -1,0 +1,19 @@
+{
+  "project_id": "TCGA-BRCA",
+  "api_base": "https://api.gdc.cancer.gov",
+  "genes": {
+    "MKI67": "ENSG00000148773",
+    "ESR1": "ENSG00000091831",
+    "PGR": "ENSG00000082175",
+    "ERBB2": "ENSG00000141736"
+  },
+  "sample_type": "Primary Tumor",
+  "workflow": "STAR - Counts",
+  "expression_unit": "FPKM-UQ",
+  "expression_transformation": "log2(FPKM-UQ + 1)",
+  "sample_selection": "Primary Tumor only; smallest sample submitter ID, then smallest aliquot submitter ID, then file UUID. Selection does not use expression or clinical outcomes.",
+  "clinical_selection": "Use the unique diagnosis with diagnosis_is_primary_disease=true. Do not combine fields from unrelated diagnoses. Unresolved or absent primary diagnoses remain missing.",
+  "clinical_age_unit": "age_at_diagnosis / 365.25 years",
+  "stage_groups": ["I", "II", "III", "IV"],
+  "analysis_scope": "Phase 1 only; descriptive statistics; no hypothesis tests, p-values, or regression fits."
+}

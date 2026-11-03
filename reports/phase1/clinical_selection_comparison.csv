@@ -1,0 +1,15 @@
+﻿group,variable,category,n,denominator,percent
+both,stage,I,181,1094,16.544789762340038
+both,stage,II,619,1094,56.58135283363803
+both,stage,III,249,1094,22.760511882998173
+both,stage,IV,20,1094,1.8281535648994516
+both,stage,Missing,25,1094,2.2851919561243146
+both,sex_at_birth,female,1082,1094,98.90310786106033
+both,sex_at_birth,male,12,1094,1.0968921389396709
+clinical_only,stage,I,1,3,33.333333333333336
+clinical_only,stage,II,2,3,66.66666666666667
+clinical_only,stage,III,0,3,0.0
+clinical_only,stage,IV,0,3,0.0
+clinical_only,stage,Missing,0,3,0.0
+clinical_only,sex_at_birth,female,3,3,100.0
+clinical_only,sex_at_birth,male,0,3,0.0

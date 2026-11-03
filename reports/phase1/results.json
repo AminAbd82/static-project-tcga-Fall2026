@@ -1,0 +1,992 @@
+{
+  "generated_at_utc": "2026-11-02T13:59:14.721110+00:00",
+  "gdc_status": {
+    "commit": "8f7c2a51ab0084b216ad1b62a3fae8b945439c53",
+    "data_release": "Data Release 46.0 - August 10, 2026",
+    "data_release_version": {
+      "major": 46,
+      "minor": 0,
+      "release_date": "2026-08-10"
+    },
+    "status": "OK",
+    "tag": "8.5.0",
+    "version": 1
+  },
+  "flow": [
+    {
+      "step": "project_case_records",
+      "n": 1098
+    },
+    {
+      "step": "cases_with_clinical_records",
+      "n": 1097
+    },
+    {
+      "step": "clinical_diagnosis_records_before_selection",
+      "n": 1342
+    },
+    {
+      "step": "cases_with_unique_primary_diagnosis",
+      "n": 1096
+    },
+    {
+      "step": "open_star_counts_files_all_tissues",
+      "n": 1231
+    },
+    {
+      "step": "primary_tumor_files_before_patient_selection",
+      "n": 1111
+    },
+    {
+      "step": "non_primary_files_excluded",
+      "n": 120
+    },
+    {
+      "step": "additional_primary_files_excluded",
+      "n": 16
+    },
+    {
+      "step": "unique_primary_rna_patients",
+      "n": 1095
+    },
+    {
+      "step": "clinical_only",
+      "n": 3
+    },
+    {
+      "step": "molecular_only",
+      "n": 1
+    },
+    {
+      "step": "neither_modality",
+      "n": 0
+    },
+    {
+      "step": "main_multimodal_patient_cohort",
+      "n": 1094
+    },
+    {
+      "step": "complete_all_main_variables",
+      "n": 1054
+    }
+  ],
+  "sample_types": {
+    "Primary Tumor": 1111,
+    "Solid Tissue Normal": 113,
+    "Metastatic": 7
+  },
+  "n_main": 1094,
+  "n_complete": 1054,
+  "quantitative": [
+    {
+      "population": "clinical_before_merge",
+      "variable": "age_years",
+      "population_n": 1097,
+      "missing_n": 16,
+      "missing_percent": 1.4585232452142205,
+      "n": 1081,
+      "mean": 59.0972259948928,
+      "median": 59.02532511978097,
+      "sd": 13.185652713724906,
+      "q1": 49.34976043805612,
+      "q3": 68.10403832991102,
+      "iqr": 18.754277891854898,
+      "min": 26.573579739904176,
+      "max": 89.99863107460644,
+      "outliers_iqr": 0
+    },
+    {
+      "population": "molecular_before_merge",
+      "variable": "MKI67_fpkm_uq",
+      "population_n": 1095,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1095,
+      "mean": 9.153679360730592,
+      "median": 6.6966,
+      "sd": 7.8201558905204465,
+      "q1": 3.8522499999999997,
+      "q3": 11.885449999999999,
+      "iqr": 8.033199999999999,
+      "min": 0.0641,
+      "max": 48.8742,
+      "outliers_iqr": 58
+    },
+    {
+      "population": "molecular_before_merge",
+      "variable": "MKI67_log2",
+      "population_n": 1095,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1095,
+      "mean": 2.9726293137082127,
+      "median": 2.944221270948316,
+      "sd": 1.0459966244314383,
+      "q1": 2.278653754857994,
+      "q3": 3.687669234822123,
+      "iqr": 1.409015479964129,
+      "min": 0.08963373610689557,
+      "max": 5.640221795063665,
+      "outliers_iqr": 1
+    },
+    {
+      "population": "molecular_before_merge",
+      "variable": "ESR1_fpkm_uq",
+      "population_n": 1095,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1095,
+      "mean": 42.08380457534246,
+      "median": 27.7471,
+      "sd": 45.52241341535917,
+      "q1": 5.14725,
+      "q3": 62.1201,
+      "iqr": 56.97285,
+      "min": 0.0204,
+      "max": 300.6967,
+      "outliers_iqr": 35
+    },
+    {
+      "population": "molecular_before_merge",
+      "variable": "ESR1_log2",
+      "population_n": 1095,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1095,
+      "mean": 4.240081223212976,
+      "median": 4.845344519582893,
+      "sd": 2.265020084397504,
+      "q1": 2.6199381039656426,
+      "q3": 5.980027485888131,
+      "iqr": 3.3600893819224886,
+      "min": 0.029134804053022843,
+      "max": 8.236955105948859,
+      "outliers_iqr": 0
+    },
+    {
+      "population": "molecular_before_merge",
+      "variable": "PGR_fpkm_uq",
+      "population_n": 1095,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1095,
+      "mean": 10.700971589041096,
+      "median": 2.5755,
+      "sd": 19.628844038330122,
+      "q1": 0.21925,
+      "q3": 13.67375,
+      "iqr": 13.4545,
+      "min": 0.0021,
+      "max": 311.42279,
+      "outliers_iqr": 95
+    },
+    {
+      "population": "molecular_before_merge",
+      "variable": "PGR_log2",
+      "population_n": 1095,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1095,
+      "mean": 2.219110643125032,
+      "median": 1.8381450033123599,
+      "sd": 1.938292398196147,
+      "q1": 0.28599397116067393,
+      "q3": 3.8751657044317938,
+      "iqr": 3.5891717332711197,
+      "min": 0.003026482889898585,
+      "max": 8.287355885958702,
+      "outliers_iqr": 0
+    },
+    {
+      "population": "molecular_before_merge",
+      "variable": "ERBB2_fpkm_uq",
+      "population_n": 1095,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1095,
+      "mean": 89.9596554977169,
+      "median": 34.7692,
+      "sd": 195.61773306967504,
+      "q1": 22.418,
+      "q3": 54.535650000000004,
+      "iqr": 32.117650000000005,
+      "min": 0.8507,
+      "max": 1835.3291,
+      "outliers_iqr": 120
+    },
+    {
+      "population": "molecular_before_merge",
+      "variable": "ERBB2_log2",
+      "population_n": 1095,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1095,
+      "mean": 5.3824603503519795,
+      "median": 5.160645946825776,
+      "sd": 1.4488021634630515,
+      "q1": 4.549545823951365,
+      "q3": 5.795342255458905,
+      "iqr": 1.2457964315075403,
+      "min": 0.8880710521022308,
+      "max": 10.842608920968432,
+      "outliers_iqr": 106
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "age_years",
+      "population_n": 1094,
+      "missing_n": 16,
+      "missing_percent": 1.4625228519195612,
+      "n": 1078,
+      "mean": 59.09945027105485,
+      "median": 59.02943189596167,
+      "sd": 13.152535327593505,
+      "q1": 49.3586584531143,
+      "q3": 68.08692676249144,
+      "iqr": 18.728268309377142,
+      "min": 26.573579739904176,
+      "max": 89.99863107460644,
+      "outliers_iqr": 0
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "MKI67_fpkm_uq",
+      "population_n": 1094,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1094,
+      "mean": 9.15852714808044,
+      "median": 6.69695,
+      "sd": 7.822086187733365,
+      "q1": 3.855075,
+      "q3": 11.895575,
+      "iqr": 8.0405,
+      "min": 0.0641,
+      "max": 48.8742,
+      "outliers_iqr": 58
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "MKI67_log2",
+      "population_n": 1094,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1094,
+      "mean": 2.973264217798757,
+      "median": 2.9442868739812913,
+      "sd": 1.0462639012480268,
+      "q1": 2.2794935270838232,
+      "q3": 3.688802862232451,
+      "iqr": 1.4093093351486279,
+      "min": 0.08963373610689557,
+      "max": 5.640221795063665,
+      "outliers_iqr": 1
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "ESR1_fpkm_uq",
+      "population_n": 1094,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1094,
+      "mean": 42.09813574954296,
+      "median": 27.8996,
+      "sd": 45.5407618387077,
+      "q1": 5.140925,
+      "q3": 62.13185,
+      "iqr": 56.990925,
+      "min": 0.0204,
+      "max": 300.6967,
+      "outliers_iqr": 35
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "ESR1_log2",
+      "population_n": 1094,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1094,
+      "mean": 4.23959099256593,
+      "median": 4.852957532769228,
+      "sd": 2.2659978768980507,
+      "q1": 2.6184536907704468,
+      "q3": 5.980296048002477,
+      "iqr": 3.36184235723203,
+      "min": 0.029134804053022843,
+      "max": 8.236955105948859,
+      "outliers_iqr": 0
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "PGR_fpkm_uq",
+      "population_n": 1094,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1094,
+      "mean": 10.707292404021938,
+      "median": 2.56355,
+      "sd": 19.636706401469386,
+      "q1": 0.219225,
+      "q3": 13.674075,
+      "iqr": 13.45485,
+      "min": 0.0021,
+      "max": 311.42279,
+      "outliers_iqr": 95
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "PGR_log2",
+      "population_n": 1094,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1094,
+      "mean": 2.2190743453610913,
+      "median": 1.8333070550970465,
+      "sd": 1.9391785076903378,
+      "q1": 0.2859643895522733,
+      "q3": 3.87519765781035,
+      "iqr": 3.5892332682580768,
+      "min": 0.003026482889898585,
+      "max": 8.287355885958702,
+      "outliers_iqr": 0
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "ERBB2_fpkm_uq",
+      "population_n": 1094,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1094,
+      "mean": 89.9945806855576,
+      "median": 34.63715,
+      "sd": 195.70378371090322,
+      "q1": 22.41285,
+      "q3": 54.539975,
+      "iqr": 32.127125,
+      "min": 0.8507,
+      "max": 1835.3291,
+      "outliers_iqr": 120
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "ERBB2_log2",
+      "population_n": 1094,
+      "missing_n": 0,
+      "missing_percent": 0.0,
+      "n": 1094,
+      "mean": 5.3821507709531895,
+      "median": 5.155300155929244,
+      "sd": 1.449428541393416,
+      "q1": 4.549228551770151,
+      "q3": 5.795454609525208,
+      "iqr": 1.2462260577550577,
+      "min": 0.8880710521022308,
+      "max": 10.842608920968432,
+      "outliers_iqr": 106
+    }
+  ],
+  "categorical": [
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Missing",
+      "n": 12,
+      "denominator": 1097,
+      "percent": 1.0938924339106655
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage I",
+      "n": 90,
+      "denominator": 1097,
+      "percent": 8.20419325432999
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage IA",
+      "n": 85,
+      "denominator": 1097,
+      "percent": 7.748404740200547
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage IB",
+      "n": 7,
+      "denominator": 1097,
+      "percent": 0.6381039197812215
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage II",
+      "n": 6,
+      "denominator": 1097,
+      "percent": 0.5469462169553327
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage IIA",
+      "n": 358,
+      "denominator": 1097,
+      "percent": 32.63445761166819
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage IIB",
+      "n": 257,
+      "denominator": 1097,
+      "percent": 23.427529626253417
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage III",
+      "n": 2,
+      "denominator": 1097,
+      "percent": 0.18231540565177756
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage IIIA",
+      "n": 155,
+      "denominator": 1097,
+      "percent": 14.129443938012763
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage IIIB",
+      "n": 27,
+      "denominator": 1097,
+      "percent": 2.4612579762989975
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage IIIC",
+      "n": 65,
+      "denominator": 1097,
+      "percent": 5.925250683682771
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage IV",
+      "n": 20,
+      "denominator": 1097,
+      "percent": 1.8231540565177757
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage_original",
+      "category": "Stage X",
+      "n": 13,
+      "denominator": 1097,
+      "percent": 1.1850501367365542
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage",
+      "category": "I",
+      "n": 182,
+      "denominator": 1097,
+      "percent": 16.590701914311758
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage",
+      "category": "II",
+      "n": 621,
+      "denominator": 1097,
+      "percent": 56.60893345487694
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage",
+      "category": "III",
+      "n": 249,
+      "denominator": 1097,
+      "percent": 22.69826800364631
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage",
+      "category": "IV",
+      "n": 20,
+      "denominator": 1097,
+      "percent": 1.8231540565177757
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "stage",
+      "category": "Missing",
+      "n": 25,
+      "denominator": 1097,
+      "percent": 2.2789425706472195
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "sex_at_birth",
+      "category": "female",
+      "n": 1085,
+      "denominator": 1097,
+      "percent": 98.90610756608933
+    },
+    {
+      "population": "clinical_before_merge",
+      "variable": "sex_at_birth",
+      "category": "male",
+      "n": 12,
+      "denominator": 1097,
+      "percent": 1.0938924339106655
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Missing",
+      "n": 12,
+      "denominator": 1094,
+      "percent": 1.0968921389396709
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage I",
+      "n": 90,
+      "denominator": 1094,
+      "percent": 8.226691042047532
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage IA",
+      "n": 85,
+      "denominator": 1094,
+      "percent": 7.769652650822669
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage IB",
+      "n": 6,
+      "denominator": 1094,
+      "percent": 0.5484460694698354
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage II",
+      "n": 6,
+      "denominator": 1094,
+      "percent": 0.5484460694698354
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage IIA",
+      "n": 358,
+      "denominator": 1094,
+      "percent": 32.72394881170018
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage IIB",
+      "n": 255,
+      "denominator": 1094,
+      "percent": 23.308957952468006
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage III",
+      "n": 2,
+      "denominator": 1094,
+      "percent": 0.18281535648994515
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage IIIA",
+      "n": 155,
+      "denominator": 1094,
+      "percent": 14.16819012797075
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage IIIB",
+      "n": 27,
+      "denominator": 1094,
+      "percent": 2.4680073126142594
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage IIIC",
+      "n": 65,
+      "denominator": 1094,
+      "percent": 5.941499085923217
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage IV",
+      "n": 20,
+      "denominator": 1094,
+      "percent": 1.8281535648994516
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage_original",
+      "category": "Stage X",
+      "n": 13,
+      "denominator": 1094,
+      "percent": 1.1882998171846435
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage",
+      "category": "I",
+      "n": 181,
+      "denominator": 1094,
+      "percent": 16.544789762340038
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage",
+      "category": "II",
+      "n": 619,
+      "denominator": 1094,
+      "percent": 56.58135283363803
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage",
+      "category": "III",
+      "n": 249,
+      "denominator": 1094,
+      "percent": 22.760511882998173
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage",
+      "category": "IV",
+      "n": 20,
+      "denominator": 1094,
+      "percent": 1.8281535648994516
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "stage",
+      "category": "Missing",
+      "n": 25,
+      "denominator": 1094,
+      "percent": 2.2851919561243146
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "sex_at_birth",
+      "category": "female",
+      "n": 1082,
+      "denominator": 1094,
+      "percent": 98.90310786106033
+    },
+    {
+      "population": "multimodal_cohort",
+      "variable": "sex_at_birth",
+      "category": "male",
+      "n": 12,
+      "denominator": 1094,
+      "percent": 1.0968921389396709
+    }
+  ],
+  "mki67_by_stage": [
+    {
+      "stage": "I",
+      "group_n": 181,
+      "n": 181,
+      "mean": 2.7075449197114803,
+      "median": 2.6051150016894375,
+      "sd": 1.0338388376941476,
+      "q1": 2.014426711755872,
+      "q3": 3.348473226082298,
+      "iqr": 1.3340465143264262,
+      "min": 0.36356359379718917,
+      "max": 5.446689635081623,
+      "outliers_iqr": 1
+    },
+    {
+      "stage": "II",
+      "group_n": 619,
+      "n": 619,
+      "mean": 3.073342041585727,
+      "median": 3.0545185812085403,
+      "sd": 1.0320626006549105,
+      "q1": 2.368054277944885,
+      "q3": 3.793860004931994,
+      "iqr": 1.4258057269871087,
+      "min": 0.2873540850292068,
+      "max": 5.640221795063665,
+      "outliers_iqr": 0
+    },
+    {
+      "stage": "III",
+      "group_n": 249,
+      "n": 249,
+      "mean": 2.9042689321692716,
+      "median": 2.9393018140996836,
+      "sd": 1.0598953582146424,
+      "q1": 2.1867223961522133,
+      "q3": 3.5865485930751824,
+      "iqr": 1.399826196922969,
+      "min": 0.08963373610689557,
+      "max": 5.478217913148232,
+      "outliers_iqr": 0
+    },
+    {
+      "stage": "IV",
+      "group_n": 20,
+      "n": 20,
+      "mean": 3.0322182722001174,
+      "median": 3.152784521992423,
+      "sd": 1.0371271351063531,
+      "q1": 2.4873013206293706,
+      "q3": 3.9128246320922035,
+      "iqr": 1.425523311462833,
+      "min": 0.8401207734615321,
+      "max": 4.655220148055848,
+      "outliers_iqr": 0
+    }
+  ],
+  "availability": [
+    {
+      "group": "both",
+      "n": 1094,
+      "age_n": 1078,
+      "age_mean": 59.09945027105485,
+      "age_median": 59.02943189596167,
+      "age_sd": 13.152535327593505,
+      "age_q1": 49.3586584531143,
+      "age_q3": 68.08692676249144,
+      "age_iqr": 18.728268309377142,
+      "age_min": 26.573579739904176,
+      "age_max": 89.99863107460644,
+      "age_outliers_iqr": 0
+    },
+    {
+      "group": "clinical_only",
+      "n": 3,
+      "age_n": 3,
+      "age_mean": 58.29796942733287,
+      "age_median": 49.385352498288846,
+      "age_sd": 27.009978609594395,
+      "age_q1": 43.12799452429843,
+      "age_q3": 69.0116358658453,
+      "age_iqr": 25.883641341546877,
+      "age_min": 36.87063655030801,
+      "age_max": 88.63791923340177,
+      "age_outliers_iqr": 0
+    },
+    {
+      "group": "molecular_only",
+      "n": 1,
+      "age_n": 0,
+      "age_mean": null,
+      "age_median": null,
+      "age_sd": null,
+      "age_q1": null,
+      "age_q3": null,
+      "age_iqr": null,
+      "age_min": null,
+      "age_max": null,
+      "age_outliers_iqr": 0
+    },
+    {
+      "group": "neither",
+      "n": 0,
+      "age_n": 0,
+      "age_mean": null,
+      "age_median": null,
+      "age_sd": null,
+      "age_q1": null,
+      "age_q3": null,
+      "age_iqr": null,
+      "age_min": null,
+      "age_max": null,
+      "age_outliers_iqr": 0
+    }
+  ],
+  "selection_comparison": [
+    {
+      "group": "both",
+      "variable": "stage",
+      "category": "I",
+      "n": 181,
+      "denominator": 1094,
+      "percent": 16.544789762340038
+    },
+    {
+      "group": "both",
+      "variable": "stage",
+      "category": "II",
+      "n": 619,
+      "denominator": 1094,
+      "percent": 56.58135283363803
+    },
+    {
+      "group": "both",
+      "variable": "stage",
+      "category": "III",
+      "n": 249,
+      "denominator": 1094,
+      "percent": 22.760511882998173
+    },
+    {
+      "group": "both",
+      "variable": "stage",
+      "category": "IV",
+      "n": 20,
+      "denominator": 1094,
+      "percent": 1.8281535648994516
+    },
+    {
+      "group": "both",
+      "variable": "stage",
+      "category": "Missing",
+      "n": 25,
+      "denominator": 1094,
+      "percent": 2.2851919561243146
+    },
+    {
+      "group": "both",
+      "variable": "sex_at_birth",
+      "category": "female",
+      "n": 1082,
+      "denominator": 1094,
+      "percent": 98.90310786106033
+    },
+    {
+      "group": "both",
+      "variable": "sex_at_birth",
+      "category": "male",
+      "n": 12,
+      "denominator": 1094,
+      "percent": 1.0968921389396709
+    },
+    {
+      "group": "clinical_only",
+      "variable": "stage",
+      "category": "I",
+      "n": 1,
+      "denominator": 3,
+      "percent": 33.333333333333336
+    },
+    {
+      "group": "clinical_only",
+      "variable": "stage",
+      "category": "II",
+      "n": 2,
+      "denominator": 3,
+      "percent": 66.66666666666667
+    },
+    {
+      "group": "clinical_only",
+      "variable": "stage",
+      "category": "III",
+      "n": 0,
+      "denominator": 3,
+      "percent": 0.0
+    },
+    {
+      "group": "clinical_only",
+      "variable": "stage",
+      "category": "IV",
+      "n": 0,
+      "denominator": 3,
+      "percent": 0.0
+    },
+    {
+      "group": "clinical_only",
+      "variable": "stage",
+      "category": "Missing",
+      "n": 0,
+      "denominator": 3,
+      "percent": 0.0
+    },
+    {
+      "group": "clinical_only",
+      "variable": "sex_at_birth",
+      "category": "female",
+      "n": 3,
+      "denominator": 3,
+      "percent": 100.0
+    },
+    {
+      "group": "clinical_only",
+      "variable": "sex_at_birth",
+      "category": "male",
+      "n": 0,
+      "denominator": 3,
+      "percent": 0.0
+    }
+  ],
+  "quality_issue_count": 0,
+  "validation_checks": 24,
+  "age_obfuscated_n": 17,
+  "diagnosis_year_min": 1988,
+  "diagnosis_year_max": 2013,
+  "diagnosis_year_available_n": 1094,
+  "primary_diagnosis_missing_or_ambiguous": 2,
+  "all_rna_files_per_case": {
+    "1": 971,
+    "3": 8,
+    "2": 114,
+    "4": 2
+  },
+  "final_patient_ids_unique": true,
+  "phase_scope": "descriptive_only_phase_1",
+  "figures": [
+    {
+      "file": "figures/phase1/01_age_histogram.png",
+      "title": "توزیع سن هنگام تشخیص",
+      "caption": "سن از تشخیص اصلی استخراج و از روز به سال تبدیل شده است. خط عمودی میانه را نشان می‌دهد؛ داده‌های گمشده در هیستوگرام وارد نمی‌شوند."
+    },
+    {
+      "file": "figures/phase1/02_stage_counts.png",
+      "title": "فراوانی مرحلهٔ بیماری",
+      "caption": "زیرمرحله‌های معتبر در چهار مرحلهٔ اصلی ادغام شده‌اند. ستون Missing نیز نمایش داده شده تا مخرج درصدها و نبود داده روشن بماند."
+    },
+    {
+      "file": "figures/phase1/03_mki67_distribution.png",
+      "title": "توزیع بیان MKI67 در دو مقیاس",
+      "caption": "نمایش هم‌زمان مقیاس اصلی و تبدیل لگاریتمی، اثر چولگی و مقادیر بزرگ را آشکار می‌کند. تبدیل لگاریتمی آزمون نرمال‌بودن یا تضمین نرمال‌بودن نیست."
+    },
+    {
+      "file": "figures/phase1/04_mki67_by_stage.png",
+      "title": "مقایسهٔ توصیفی MKI67 میان مراحل بیماری",
+      "caption": "خط وسط میانه، جعبه فاصلهٔ چارک اول تا سوم و نقاط بیرونی مقادیر خارج از حصار ۱٫۵ برابر IQR را نشان می‌دهند. این نقاط حذف نشده‌اند؛ اندازهٔ هر گروه زیر محور آمده است."
+    },
+    {
+      "file": "figures/phase1/05_selected_genes.png",
+      "title": "توزیع چهار ژن منتخب",
+      "caption": "همهٔ ژن‌ها پیش از محاسبهٔ نتایج انتخاب شده‌اند. هر پنل توزیع یک ژن را در همان مقیاس مشخص نشان می‌دهد و هیچ آزمون انتخاب ویژگی اجرا نشده است."
+    },
+    {
+      "file": "figures/phase1/06_modality_availability.png",
+      "title": "الگوی دسترسی به انواع داده",
+      "caption": "دادهٔ بالینی به معنی وجود رکورد تشخیص یا جمعیت‌شناختی است؛ وجود رکورد به معنی کامل‌بودن همهٔ متغیرها نیست. دادهٔ مولکولی به نمونهٔ تومور اولیهٔ واجد شرایط اشاره دارد."
+    },
+    {
+      "file": "figures/phase1/07_missingness.png",
+      "title": "درصد گمشدگی متغیرهای اصلی",
+      "caption": "مخرج همهٔ درصدهای این شکل، تعداد بیماران دارای هر دو نوع داده است. گمشدگی متغیر با نبود کل یک نوع داده یکسان نیست."
+    }
+  ]
+}

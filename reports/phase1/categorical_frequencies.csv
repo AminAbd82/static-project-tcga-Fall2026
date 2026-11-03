@@ -1,0 +1,41 @@
+﻿population,variable,category,n,denominator,percent
+clinical_before_merge,stage_original,Missing,12,1097,1.0938924339106655
+clinical_before_merge,stage_original,Stage I,90,1097,8.20419325432999
+clinical_before_merge,stage_original,Stage IA,85,1097,7.748404740200547
+clinical_before_merge,stage_original,Stage IB,7,1097,0.6381039197812215
+clinical_before_merge,stage_original,Stage II,6,1097,0.5469462169553327
+clinical_before_merge,stage_original,Stage IIA,358,1097,32.63445761166819
+clinical_before_merge,stage_original,Stage IIB,257,1097,23.427529626253417
+clinical_before_merge,stage_original,Stage III,2,1097,0.18231540565177756
+clinical_before_merge,stage_original,Stage IIIA,155,1097,14.129443938012763
+clinical_before_merge,stage_original,Stage IIIB,27,1097,2.4612579762989975
+clinical_before_merge,stage_original,Stage IIIC,65,1097,5.925250683682771
+clinical_before_merge,stage_original,Stage IV,20,1097,1.8231540565177757
+clinical_before_merge,stage_original,Stage X,13,1097,1.1850501367365542
+clinical_before_merge,stage,I,182,1097,16.590701914311758
+clinical_before_merge,stage,II,621,1097,56.60893345487694
+clinical_before_merge,stage,III,249,1097,22.69826800364631
+clinical_before_merge,stage,IV,20,1097,1.8231540565177757
+clinical_before_merge,stage,Missing,25,1097,2.2789425706472195
+clinical_before_merge,sex_at_birth,female,1085,1097,98.90610756608933
+clinical_before_merge,sex_at_birth,male,12,1097,1.0938924339106655
+multimodal_cohort,stage_original,Missing,12,1094,1.0968921389396709
+multimodal_cohort,stage_original,Stage I,90,1094,8.226691042047532
+multimodal_cohort,stage_original,Stage IA,85,1094,7.769652650822669
+multimodal_cohort,stage_original,Stage IB,6,1094,0.5484460694698354
+multimodal_cohort,stage_original,Stage II,6,1094,0.5484460694698354
+multimodal_cohort,stage_original,Stage IIA,358,1094,32.72394881170018
+multimodal_cohort,stage_original,Stage IIB,255,1094,23.308957952468006
+multimodal_cohort,stage_original,Stage III,2,1094,0.18281535648994515
+multimodal_cohort,stage_original,Stage IIIA,155,1094,14.16819012797075
+multimodal_cohort,stage_original,Stage IIIB,27,1094,2.4680073126142594
+multimodal_cohort,stage_original,Stage IIIC,65,1094,5.941499085923217
+multimodal_cohort,stage_original,Stage IV,20,1094,1.8281535648994516
+multimodal_cohort,stage_original,Stage X,13,1094,1.1882998171846435
+multimodal_cohort,stage,I,181,1094,16.544789762340038
+multimodal_cohort,stage,II,619,1094,56.58135283363803
+multimodal_cohort,stage,III,249,1094,22.760511882998173
+multimodal_cohort,stage,IV,20,1094,1.8281535648994516
+multimodal_cohort,stage,Missing,25,1094,2.2851919561243146
+multimodal_cohort,sex_at_birth,female,1082,1094,98.90310786106033
+multimodal_cohort,sex_at_birth,male,12,1094,1.0968921389396709

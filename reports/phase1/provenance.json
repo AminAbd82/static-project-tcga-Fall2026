@@ -1,0 +1,52 @@
+{
+  "retrieved_at_utc": "2026-11-02T13:56:37.590026+00:00",
+  "gdc_status": {
+    "commit": "8f7c2a51ab0084b216ad1b62a3fae8b945439c53",
+    "data_release": "Data Release 46.0 - August 10, 2026",
+    "data_release_version": {
+      "major": 46,
+      "minor": 0,
+      "release_date": "2026-08-10"
+    },
+    "status": "OK",
+    "tag": "8.5.0",
+    "version": 1
+  },
+  "clinical_cases": 1098,
+  "rna_files": 1231,
+  "selected_primary_tumor_cases": 1095,
+  "direct_files": 124,
+  "singleton_validation_cases": [
+    "001cef41-ff86-4d3f-a140-a647ac4b10a1",
+    "0045349c-69d9-4306-a403-c9c1fa836644",
+    "00807dae-9f4a-4fd1-aac2-82eb11bf2afb",
+    "00a2d166-78c9-4687-a195-3d6315c27574",
+    "00b11ca8-8540-4a3d-b602-ec754b00230b",
+    "01263518-5f7c-49dc-8d7e-84b0c03a6a63"
+  ],
+  "expression_unit": "FPKM-UQ",
+  "config": {
+    "project_id": "TCGA-BRCA",
+    "api_base": "https://api.gdc.cancer.gov",
+    "genes": {
+      "MKI67": "ENSG00000148773",
+      "ESR1": "ENSG00000091831",
+      "PGR": "ENSG00000082175",
+      "ERBB2": "ENSG00000141736"
+    },
+    "sample_type": "Primary Tumor",
+    "workflow": "STAR - Counts",
+    "expression_unit": "FPKM-UQ",
+    "expression_transformation": "log2(FPKM-UQ + 1)",
+    "sample_selection": "Primary Tumor only; smallest sample submitter ID, then smallest aliquot submitter ID, then file UUID. Selection does not use expression or clinical outcomes.",
+    "clinical_selection": "Use the unique diagnosis with diagnosis_is_primary_disease=true. Do not combine fields from unrelated diagnoses. Unresolved or absent primary diagnoses remain missing.",
+    "clinical_age_unit": "age_at_diagnosis / 365.25 years",
+    "stage_groups": [
+      "I",
+      "II",
+      "III",
+      "IV"
+    ],
+    "analysis_scope": "Phase 1 only; descriptive statistics; no hypothesis tests, p-values, or regression fits."
+  }
+}

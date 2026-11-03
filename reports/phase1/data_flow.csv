@@ -1,0 +1,15 @@
+﻿step,n
+project_case_records,1098
+cases_with_clinical_records,1097
+clinical_diagnosis_records_before_selection,1342
+cases_with_unique_primary_diagnosis,1096
+open_star_counts_files_all_tissues,1231
+primary_tumor_files_before_patient_selection,1111
+non_primary_files_excluded,120
+additional_primary_files_excluded,16
+unique_primary_rna_patients,1095
+clinical_only,3
+molecular_only,1
+neither_modality,0
+main_multimodal_patient_cohort,1094
+complete_all_main_variables,1054

@@ -1,0 +1,6 @@
+Phase 1 only - reviewed package
+Repository: https://github.com/AminAbd82/static-project-tcga-Fall2026
+Main report: reports/phase1.pdf
+Includes clarified data retrieval date and final Phase 1 question.
+Raw data, software environments and Git history are excluded.
+GitHub upload, phase-1 tag, course topic registration and CW submission require separate completion.

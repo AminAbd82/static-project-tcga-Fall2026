@@ -1,0 +1,16 @@
+{
+  "input": "data/processed/multimodal_cohort_phase1.csv",
+  "input_release": "GDC Data Release 46.0",
+  "molecular_variable": "MKI67_log2",
+  "clinical_variable": "age_years",
+  "early_stage": [
+    "I",
+    "II"
+  ],
+  "advanced_stage": [
+    "III",
+    "IV"
+  ],
+  "marker_cutoff_rule": "MKI67 strictly above its median among all patients with observed MKI67, without using stage or age; ties go in the lower group.",
+  "binomial_draws": 20
+}

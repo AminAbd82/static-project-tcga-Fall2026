@@ -1,0 +1,68 @@
+{
+  "source": "data/processed/multimodal_cohort_phase1.csv",
+  "release": "GDC Data Release 46.0",
+  "input_sha256": "d3419700e549bd37db42143346b8949aea0b7d51984ded80ff2e1d16b4057da9",
+  "cohort_n": 1094,
+  "event_n": 1069,
+  "marker_n": 1094,
+  "pair_n": 1078,
+  "missing_stage": 25,
+  "missing_marker": 0,
+  "missing_age": 16,
+  "median_ties": 0,
+  "counts": [
+    [
+      399,
+      401
+    ],
+    [
+      135,
+      134
+    ]
+  ],
+  "joint": [
+    [
+      0.37324602432179604,
+      0.37511693171188026
+    ],
+    [
+      0.12628624883068287,
+      0.1253507951356408
+    ]
+  ],
+  "p_advanced": 0.2516370439663237,
+  "p_high": 0.500467726847521,
+  "p_both": 0.1253507951356408,
+  "p_stage_given_high": 0.2504672897196262,
+  "p_stage_given_low": 0.25280898876404495,
+  "p_high_given_stage": 0.49814126394052044,
+  "p_high_given_early": 0.50125,
+  "independent_joint": 0.12593621938445573,
+  "joint_gap": -0.0005854242488149419,
+  "bayes": 0.2504672897196262,
+  "stage_given_high_minus_low": -0.002341699044418777,
+  "n_draws": 20,
+  "binomial_mean": 10.009354536950422,
+  "binomial_var": 4.999995624631922,
+  "hypergeometric_var": 4.911044391609444,
+  "pmf_total_variation": 0.004531148924965277,
+  "median": 2.9442868739812913,
+  "mean": 2.973264217798757,
+  "variance_empirical": 1.0936675403133747,
+  "variance_sample": 1.0946681510547407,
+  "sd": 1.0457856091538908,
+  "q1": 2.2794935270838232,
+  "q3": 3.688802862232451,
+  "min": 0.08963373610689557,
+  "max": 5.640221795063665,
+  "skewness": -0.02103778149798607,
+  "lower_fence": 0.1655295243608812,
+  "upper_fence": 5.802766864955393,
+  "lower_outliers": 1,
+  "upper_outliers": 0,
+  "normal_below_zero": 0.0022339118116602164,
+  "age_mean_paired": 59.09945027105485,
+  "marker_mean_paired": 2.9764983837103616,
+  "covariance_empirical": -1.929130776371058,
+  "covariance_sample": -1.9309219841485612
+}
